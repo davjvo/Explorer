@@ -1,30 +1,14 @@
 
 import React from 'react';
 import {
-  Text,
-  View,
   SafeAreaView,
-  ScrollView
 } from 'react-native';
+import HomeScreen from './Apps/FinanceApp1/Screens/HomeScreen';
 
 const App = () => {
   return (
     <SafeAreaView >
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic">
-          <View>
-            <Text>Header</Text>
-          </View>
-          <View>
-            <Text>Horizontal Scroll</Text>
-          </View>
-          <View>
-            <Text>Today activity</Text>
-          </View>
-          <View>
-            <Text>Footer Total</Text>
-          </View>
-      </ScrollView>
+      <HomeScreen></HomeScreen>
     </SafeAreaView>
   );
 };
