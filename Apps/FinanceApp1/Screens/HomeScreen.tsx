@@ -21,6 +21,7 @@ const standardPadding = 15;
 const styles = StyleSheet.create({
     main: {
         padding: 8,
+        marginTop: 25,
     },
     header: {
         padding: standardPadding,
@@ -50,7 +51,6 @@ const viewStyles = sharedStyles.viewStyles;
 const secondaryColor = '#D6E8E8';
 
 const Header = () => {
-    // const iconColor = '#adadad';
     return (
         <View style={[styles.header, viewStyles.row]}>
             <View style={viewStyles.row}>

@@ -20,6 +20,12 @@ const fontStyles = StyleSheet.create({
     },
     white: {
         color: '#fff'
+    },
+    title: {
+        fontSize: 18
+    },
+    subtitle:{
+        fontSize: 14
     }
 });
 
