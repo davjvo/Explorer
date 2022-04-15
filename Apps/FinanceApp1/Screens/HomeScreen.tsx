@@ -13,6 +13,7 @@ import { faWallet, faBell, faArrowRight } from '@fortawesome/free-solid-svg-icon
 import RoundView from '../components/RoundView';
 import { Activity } from '../models/activity';
 import ActivityView from '../components/ActivityView';
+import constants from '../models/constants';
 
 // https://www.instagram.com/p/CY6DJEMgEP6/
 
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
         borderRadius: 400/2 
     },
     accentColor: {
-        backgroundColor: '#179A94'
+        backgroundColor: constants.accentColor
     }
 });
 const fontStyles = sharedStyles.fontStyles;
